@@ -1,0 +1,51 @@
+# Document Settings
+document:
+  page_size: A4
+  margins:
+    top: 20mm
+    right: 20mm
+    bottom: 25mm
+    left: 20mm
+
+# Page Numbers
+footer:
+  font_size: 10
+  font_family: Arial, sans-serif
+  spacing: 10 # in millimeters, will be converted to points
+  enabled: true
+
+# Font Settings
+fonts:
+  main:
+    family: Arial, sans-serif
+    size: 20px
+    line_height: 1.6
+  code:
+    family: monospace
+    size: 20px
+    background: "#f4f4f4"
+    padding: 2px 5px
+    border_radius: 3px
+  pre:
+    family: monospace
+    size: 20px
+    background: "#f4f4f4"
+    padding: 10px
+    border_radius: 5px
+
+# Color Settings
+colors:
+  background: "#ffffff"
+  text: "#000000"
+  table_border: "#dddddd"
+  table_header_bg: "#f4f4f4"
+
+# Table Settings
+tables:
+  border_width: 1px
+  cell_padding: 8px
+  margin: 20px 0
+
+# Image Settings
+images:
+  max_width: 100%
