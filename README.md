@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Add your markdown files to the `data/inputs/my_scenario` directory
+1. Add your markdown files to the `data/inputs/my_scenario` directory. You may create another scenario folder if needed. Update the `scenario` variable in `src/main.py` accordingly.
 
 2. Run the converter:
 
@@ -57,8 +57,8 @@ rt-pdf-from-markdown/
 ├── config/
 │   └── styles.yaml     # Style configuration
 ├── data/
-│   ├── inputs/         # Input markdown files
-│   └── outputs/        # Generated PDFs
+│   ├── inputs/         # Input markdown files inside your scenario folder
+│   └── outputs/        # Generated PDFs inside your scenario folder
 ├── src/
 │   ├── main.py
 │   └── paths.py
